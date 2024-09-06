@@ -66,6 +66,8 @@ yarn add react react-dom react-scripts
 yarn start
 ```
 
+# Vite に変更する。
+
 いちおうできたけど、どう考えてもあかんやつだと思う。
 そこでやり方を変えることにした。
 
@@ -114,6 +116,8 @@ npm notice
 ```
 http://localhost:5173/
 ```
+
+というわけで yarn app を削除している。
 
 # moonlight
 
