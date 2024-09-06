@@ -64,6 +64,7 @@ yarn add react react-dom react-scripts
 yarn start
 ```
 
+# Viteに変更する。
 いちおうできたけど、どう考えてもあかんやつだと思う。
 そこでやり方を変えることにした。
 
@@ -112,4 +113,5 @@ npm notice
 http://localhost:5173/
 ```
 
+というわけでyarn appを削除している。
 
