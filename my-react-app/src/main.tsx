@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+// アプリ全体のエントリポイント
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+// auto import
+import { App } from './App';
 
-createRoot(document.getElementById('root')!).render(
+const rootElement = document.getElementById('root');
+// 非nullにしないといかんとのこと
+const root = createRoot(rootElement!);
+
+// jsx記法
+root.render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);
