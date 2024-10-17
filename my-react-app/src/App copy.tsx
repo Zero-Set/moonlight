@@ -1,3 +1,5 @@
+import './styles.css';
+
 import { useEffect, useState } from 'react';
 // 外部に公開する場合はdefault exportのほうがいいらしい。
 import { ColorfulMessage } from './components/ColorfulMessage';
