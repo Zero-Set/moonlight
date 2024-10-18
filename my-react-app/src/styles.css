@@ -1,11 +1,18 @@
 body {
     font-family: sans-serif;
+    width: 100%;
     color: #666;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 input {
     border-radius: 8px;
-    border: none;
+    border: solid 1px;
     padding: 6px 16px; /* 上下、左右 */
 }
 
@@ -27,20 +34,21 @@ button:hover {
 
 .input-area {
     background-color: #c6e5d9;
-    width: 400px;
-    height: 30px;
+    width: calc(100%-20px);
+    height: 80px;
     padding: 8px;
     margin: 8px;
     border-radius: 8px;
 }
 
-.incomplete-area {
+.todo-area {
     border: 2px solid #aacfd0;
-    width: 400px;
+    width: calc(100%-20px);
     min-height: 200px;
     padding: 8px;
     margin: 8px;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .complete-area {
@@ -67,4 +75,13 @@ h1 {
 
 .todo-item {
     margin: 6px;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font: 10px;
+    margin: 3px;
 }

@@ -2,7 +2,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 // namedの形
-import { ToDo } from './ToDo';
+import App from './App';
 
 const rootElement = document.getElementById('root');
 // 非nullにしないといかんとのこと
@@ -11,6 +11,6 @@ const root = createRoot(rootElement!);
 // jsx記法
 root.render(
     <StrictMode>
-        <ToDo />
+        <App />
     </StrictMode>
 );
